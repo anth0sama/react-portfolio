@@ -8,49 +8,40 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Paul Hanna</h2>
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+
+          <img
+              src='https://www.reussirmavie.net/photo/art/default/4917219-7338890.jpg?v=1517524283'
               alt="avatar"
-              style={{height: '250px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+              className="avatar-img"
+            />
+          
+            <h2>Anthony LEDUC</h2>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Je suis à la recherche d'un poste de développeur Full Stack.
+              Après avoir réalisé la première partie de ma carrière dans le commerce où je me suis beaucoup épanoui, l'envie de me lancer dans le développement est devenu grandissante.
+              Je suis depuis tout jeune un grand passionné d'informatique. C'est pourquoi l'opportunité de faire de ma passion mon métier est une grande motivation. J'ai réalisé le boot camp d'Ironhack pour apprendre et me familiariser à l'univers du code. Cela m'a également permis de me conforter sur mon choix. Je suis maintenant prêt à me lancer dans ma nouvelle carrière.</p>
 
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr/>
-
+            <img
+              src='https://christianmomthoughts.com/wp-content/uploads/contactme.jpg'
+              alt="avatar"
+              className="avatar-img"
+              />
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
+                    (33) 766445234
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    aleduc88@gmail.com
                   </ListItemContent>
                 </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
-                  </ListItemContent>
-                </ListItem>
-
 
               </List>
             </div>
